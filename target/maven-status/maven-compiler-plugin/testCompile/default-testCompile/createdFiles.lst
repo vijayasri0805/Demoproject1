@@ -1,0 +1,6 @@
+com/upgrade/seleniumtests/PortalsTest.class
+com/upgrade/page/PortalsPage.class
+com/upgrade/api/ApiTest.class
+com/upgrade/page/CompareRates.class
+com/upgrade/SeleniumHelperClass/TestBase.class
+com/upgrade/loadPropFile.class

@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Command line suite</th></tr><tr><td><a href="#t0">Command line test</a></td><td class="num">3</td><td class="num attn">6</td><td class="num">0</td><td class="num">29,027</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.upgrade.seleniumtests.PortalsTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1568675948362</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">com.upgrade.seleniumtests.PortalsTest</td><td><a href="#m1">check_APR_Is_Equal</a></td><td rowspan="1">1568675977344</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m2">check_InterestRate_Is_Equal</a></td><td rowspan="1">1568675977344</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">check_Loan_Amount_are_Equal</a></td><td rowspan="1">1568675977341</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m4">check_Month_Termt_Is_Equal</a></td><td rowspan="1">1568675977343</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">check_Monthly_Payment_Is_Equal</a></td><td rowspan="1">1568675977342</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m6">select_list</a></td><td rowspan="1">1568675977340</td><td rowspan="1">1</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.upgrade.api.ApiTest</td><td><a href="#m7">check_Georgia_is_only_state_with_min_Loan_amount_3005</a></td><td rowspan="1">1568675948327</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m8">check_Number_Of_states</a></td><td rowspan="1">1568675948331</td><td rowspan="1">29</td></tr><tr class="passedeven"><td><a href="#m9">check_One_State_Has_min_Age_19</a></td><td rowspan="1">1568675948360</td><td rowspan="1">0</td></tr></tbody></table><h2>Command line test</h2><h3 id="m0">com.upgrade.seleniumtests.PortalsTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.upgrade.seleniumtests.PortalsTest#check_APR_Is_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.upgrade.seleniumtests.PortalsTest#check_InterestRate_Is_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.upgrade.seleniumtests.PortalsTest#check_Loan_Amount_are_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.upgrade.seleniumtests.PortalsTest#check_Month_Termt_Is_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.upgrade.seleniumtests.PortalsTest#check_Monthly_Payment_Is_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.upgrade.seleniumtests.PortalsTest#select_list</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.upgrade.api.ApiTest#check_Georgia_is_only_state_with_min_Loan_amount_3005</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.upgrade.api.ApiTest#check_Number_Of_states</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.upgrade.api.ApiTest#check_One_State_Has_min_Age_19</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

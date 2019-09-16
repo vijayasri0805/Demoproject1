@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My test suite]">
+  <test name="numbersXML(failed)">
+    <classes>
+      <class name="com.upgrade.seleniumtests.PortalsTest">
+        <methods>
+          <include name="select_list"/>
+          <include name="check_APR_Is_Equal"/>
+          <include name="check_InterestRate_Is_Equal"/>
+          <include name="check_Month_Termt_Is_Equal"/>
+          <include name="check_Monthly_Payment_Is_Equal"/>
+          <include name="setUp"/>
+          <include name="check_Loan_Amount_are_Equal"/>
+        </methods>
+      </class> <!-- com.upgrade.seleniumtests.PortalsTest -->
+    </classes>
+  </test> <!-- numbersXML(failed) -->
+</suite> <!-- Failed suite [My test suite] -->

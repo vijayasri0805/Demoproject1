@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 30.931 sec <<< FAILURE!
+setUp(com.upgrade.seleniumtests.PortalsTest)  Time elapsed: 28.982 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Stevens-MacBook-Pro.local', ip: '2601:641:300:92c:0:0:0:c1bd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+

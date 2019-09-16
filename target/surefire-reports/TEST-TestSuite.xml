@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="1" name="TestSuite" time="29.016" errors="0" skipped="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/steven/Documents/UpgradeCh/upgrade"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/steven/Documents/UpgradeCh/upgrade"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/xn/g9c1tkms3jd45m0fyks02zzh0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/steven/eclipse-workspace/upgrade/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3613106683449595674.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/steven/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/steven"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="steven"/>
+    <property name="java.class.path" value="/Users/steven/Downloads/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="/Users/steven/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/steven/Documents/UpgradeCh/upgrade/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.upgrade.api.ApiTest" name="check_Georgia_is_only_state_with_min_Loan_amount_3005" time="0.009"/>
+  <testcase classname="com.upgrade.api.ApiTest" name="check_Number_Of_states" time="0.023"/>
+  <testcase classname="com.upgrade.api.ApiTest" name="check_One_State_Has_min_Age_19" time="0.001"/>
+  <testcase classname="com.upgrade.seleniumtests.PortalsTest" name="setUp" time="28.982">
+    <failure message="no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d7986038f6ba8289c2abc82c92b45bd5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:884)
+	at com.upgrade.SeleniumHelperClass.TestBase.getUrl(TestBase.java:24)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:29)
+</failure>
+    <system-err>Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 24973
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 16, 2019 4:19:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.upgrade.seleniumtests.PortalsTest" name="select_list" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.upgrade.seleniumtests.PortalsTest" name="check_Loan_Amount_are_Equal" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.upgrade.seleniumtests.PortalsTest" name="check_Monthly_Payment_Is_Equal" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.upgrade.seleniumtests.PortalsTest" name="check_Month_Termt_Is_Equal" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.upgrade.seleniumtests.PortalsTest" name="check_InterestRate_Is_Equal" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.upgrade.seleniumtests.PortalsTest" name="check_APR_Is_Equal" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

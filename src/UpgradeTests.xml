@@ -1,0 +1,11 @@
+<suite name="My test suite">
+    <listeners>
+        <!-- listener class-name="com.upgrade.CustomisedListener"/-->
+    </listeners>
+    <test name="numbersXML">
+        <classes>
+            <class name="com.upgrade.seleniumtests.PortalsTest" />
+            <class name="com.upgrade.api.ApiTest" />
+        </classes>
+    </test>
+</suite>

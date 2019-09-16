@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">My test suite</th></tr><tr><td><a href="#t0">numbersXML</a></td><td class="num">3</td><td class="num attn">6</td><td class="num">0</td><td class="num">16,411</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">My test suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">numbersXML &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.upgrade.seleniumtests.PortalsTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1568675999319</td><td rowspan="1">0</td></tr><tr><th colspan="4">numbersXML &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">com.upgrade.seleniumtests.PortalsTest</td><td><a href="#m1">check_APR_Is_Equal</a></td><td rowspan="1">1568676015722</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">check_InterestRate_Is_Equal</a></td><td rowspan="1">1568676015719</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m3">check_Loan_Amount_are_Equal</a></td><td rowspan="1">1568676015712</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m4">check_Month_Termt_Is_Equal</a></td><td rowspan="1">1568676015717</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m5">check_Monthly_Payment_Is_Equal</a></td><td rowspan="1">1568676015715</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">select_list</a></td><td rowspan="1">1568676015666</td><td rowspan="1">2</td></tr><tr><th colspan="4">numbersXML &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.upgrade.api.ApiTest</td><td><a href="#m7">check_Georgia_is_only_state_with_min_Loan_amount_3005</a></td><td rowspan="1">1568676015670</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m8">check_Number_Of_states</a></td><td rowspan="1">1568676015673</td><td rowspan="1">36</td></tr><tr class="passedeven"><td><a href="#m9">check_One_State_Has_min_Age_19</a></td><td rowspan="1">1568676015710</td><td rowspan="1">1</td></tr></tbody></table><h2>numbersXML</h2><h3 id="m0">com.upgrade.seleniumtests.PortalsTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc805c571b2369a7085767198b44a273
+*** Element info: {Using=xpath, value=//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:53)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.upgrade.seleniumtests.PortalsTest#check_APR_Is_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc805c571b2369a7085767198b44a273
+*** Element info: {Using=xpath, value=//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:53)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.upgrade.seleniumtests.PortalsTest#check_InterestRate_Is_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc805c571b2369a7085767198b44a273
+*** Element info: {Using=xpath, value=//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:53)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.upgrade.seleniumtests.PortalsTest#check_Loan_Amount_are_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc805c571b2369a7085767198b44a273
+*** Element info: {Using=xpath, value=//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:53)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.upgrade.seleniumtests.PortalsTest#check_Month_Termt_Is_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc805c571b2369a7085767198b44a273
+*** Element info: {Using=xpath, value=//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:53)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.upgrade.seleniumtests.PortalsTest#check_Monthly_Payment_Is_Equal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc805c571b2369a7085767198b44a273
+*** Element info: {Using=xpath, value=//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:53)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.upgrade.seleniumtests.PortalsTest#select_list</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;Stevens-MacBook-Pro.local&apos;, ip: &apos;2601:641:300:92c:0:0:0:c1bd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: /var/folders/xn/g9c1tkms3jd...}, goog:chromeOptions: {debuggerAddress: localhost:49427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cc805c571b2369a7085767198b44a273
+*** Element info: {Using=xpath, value=//div[@class = &apos;text--align-center&apos;]/div[1]/div[2]/span[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getText(Unknown Source)
+	at com.upgrade.seleniumtests.PortalsTest.setUp(PortalsTest.java:53)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.upgrade.api.ApiTest#check_Georgia_is_only_state_with_min_Loan_amount_3005</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.upgrade.api.ApiTest#check_Number_Of_states</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.upgrade.api.ApiTest#check_One_State_Has_min_Age_19</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
